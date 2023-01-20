@@ -1,0 +1,334 @@
+{
+    "basics": {
+      "name": "Clarance Liberiste Ntwari",
+      "label": "Software Engineer | Typescript & Node.js",
+      "image": "",
+      "email": "liberintwari@gmail.com",
+      "phone": "",
+      "url": "",
+      "summary": "Innovative, task-driven, and passionate software developer with many years of software development and over 3 years of remote development.\n\nHaving led teams using different Agile methodologies(Kanban and Scrum), and having worked remotely for over 3 years makes me adaptable and understand the importance of communication",
+      "location": {
+        "countryCode": "US",
+        "address": "Rwanda"
+      },
+      "profiles": [
+        {
+          "network": "LinkedIn",
+          "username": "clarance-liberiste-ntwari-27a484184",
+          "url": "https://www.linkedin.com/in/clarance-liberiste-ntwari-27a484184/"
+        }
+      ]
+    },
+    "work": [
+      {
+        "name": "bp",
+        "position": "Senior Frontend Developer",
+        "startDate": "2022-07-31",
+        "endDate": "",
+        "highlights": [],
+        "summary": "By simplifying end-to-end fleet management and offering guidance on how to decarbonize their fleet, a one-stop digital platform operating on BP's Superfleet platform assists fleet managers who want to maximize the efficiency of their fleet. This frees up time to expand their business in a Net Zero world. ​\n\n- I contributed to the Notification Team (Squad), ensuring that Superfleet users may improve their \n   platform experiences by not missing any action or insight made on the platform.\n- I was a part of the Audit Trail Team, whose job it was to keep a log of all the platform's users' past \n   actions.\n- Involvement in Domains Team, managing high-level monorepo architecture for efficient team \n   development and CI/CD pipelines\n\nNX | React.js | Typescript | Webpack | Node.js | Azure Devops",
+        "url": "https://www.linkedin.com/company/bp/",
+        "location": "London, England, United Kingdom"
+      },
+      {
+        "name": "HuntersOfBook",
+        "position": "Full Stack Engineer",
+        "startDate": "2021-04-30",
+        "endDate": "2022-06-30",
+        "highlights": [],
+        "summary": "HuntersOfBook is a community for avid readers who want to meet new individuals who share their interest in books.\n\nTechnically I:\n- Created a storybook-like representation of UI elements to streamline frontend development, \n- Created a simple WYSIWYG editor for platform articles\nUsed GraphQL for Integration Between Backend and Frontend Services\n\nGraphQL | Typescript | Vue.js | Node.js | Nest.js | Tailwind | Javascript",
+        "url": "",
+        "location": "Istanbul, Turkey"
+      },
+      {
+        "name": "IGIHE AND SIGNA LTD",
+        "position": "QA Engineer",
+        "startDate": "2020-07-31",
+        "endDate": "2021-03-31",
+        "highlights": [],
+        "summary": "I have used Golang to perform stress testing, during which I was required to send 10,000 requests per second, and I have conducted both Blackbox and Whitebox tests on the API level and the frontend.\n\nGoLang | Typescript | Javascript | Postman",
+        "url": "",
+        "location": "Rwanda"
+      },
+      {
+        "name": "Kurious ltd",
+        "position": "Frontend Engineer",
+        "startDate": "2019-01-31",
+        "endDate": "2020-05-31",
+        "highlights": [],
+        "summary": "Kurious is an online learning platform that competes with public alternatives like Coursera and Edx but is exclusive to independent educational institutions.\n\n- Many of the front-end tools that enable colleges to provide video and textual materials to students were created by me. \n- I built a front-end messaging service that lets people have a group or individual conversations in real-time, whether in school or not.\n\nVue.js | Nuxt.js.| Typescript | Docker | MongoDb| Node.js | SCSS",
+        "url": "https://www.linkedin.com/company/kurious-ltd/",
+        "location": "Kigali City, Rwanda"
+      },
+      {
+        "name": "Future Skills Bootcamp",
+        "position": "Web Development Mentor",
+        "startDate": "2019-12-31",
+        "endDate": "2019-12-31",
+        "highlights": [],
+        "summary": "During my time in the program, I helped teach programming concepts to around three hundred and fifty under 18 children.\n\nOn of the skills covered was:\n - HTML\n - CSS\n - Javascript\n - PHP\n - SQL",
+        "url": "",
+        "location": "Kigali, Kigali City, Rwanda"
+      },
+      {
+        "name": "Stunnity",
+        "position": "Software Developer",
+        "startDate": "2017-07-31",
+        "endDate": "2019-01-31",
+        "highlights": [],
+        "summary": "- Published NPM packages, worked on and published Figma and XD plugins, and created a variety of  \n Laravel-based APIs\n- Designed and implemented several user interface elements in Vue.js, with a focus on the e-book hosting service Stunlab.",
+        "url": "https://www.linkedin.com/company/stunnity/",
+        "location": "Kigali City, Rwanda"
+      }
+    ],
+    "volunteer": [],
+    "education": [
+      {
+        "institution": "Rwanda Coding Academy",
+        "area": "Cyber/Computer Forensics and Counterterrorism & Computer Software Engineering",
+        "studyType": "Associate's degree",
+        "startDate": "2019-12-31",
+        "endDate": "2022-07-31",
+        "score": "",
+        "courses": []
+      }
+    ],
+    "awards": [],
+    "certificates": [
+      {
+        "name": "JSworld Conference                                            ",
+        "issuer": "JSworld Conference - Frontend Love",
+        "startDate": "2021-02-28",
+        "url": "https://blob.virtualbadge.io/event-77/certificate-48643d8a-5a24-4d6b-b03c-31778694ae62-6f377198-7457-11eb-8410-0242ac100102.png"
+      },
+      {
+        "name": "NASA Space App Challenge Hackathon",
+        "issuer": "NASA - National Aeronautics and Space Administration",
+        "startDate": "2021-10-31",
+        "url": "https://drive.google.com/file/d/1X2yX1vlY8wnjyHWdILnC_nSYqvQbudJ3/view?usp=sharing"
+      },
+      {
+        "name": "Responsive Web Design",
+        "issuer": "freeCodeCamp",
+        "startDate": "2021-07-31",
+        "url": "https://freecodecamp.org/certification/ntwari/responsive-web-design"
+      },
+      {
+        "name": "JavaScript Algorithms and Data Structures",
+        "issuer": "freeCodeCamp",
+        "startDate": "2021-07-31",
+        "url": "https://freecodecamp.org/certification/ntwari/javascript-algorithms-and-data-structures"
+      },
+      {
+        "name": "Scrum: The Basics",
+        "issuer": "Linkedin Learning App",
+        "startDate": "2022-08-31"
+      }
+    ],
+    "publications": [],
+    "skills": [
+      {
+        "name": "Webpack",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "TypeScript",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "GraphQL",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Scrum",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Back-End Web Development",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Progressive Web Applications (PWAs)",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Full-Stack Development",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Strategic Thinking",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "HTML",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Git",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Node.js",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Docker Products",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "PHP",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Agile Application Development",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "WebSocket",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Software Engineers",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Cascading Style Sheets (CSS)",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Java",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "GitHub",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Public Speaking",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "SQL",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "MySQL",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Bootstrap",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "JavaScript",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "React.js",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Testing",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Laravel",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Gitlab",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Critical Thinking",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "PostgreSQL",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Nuxt.js",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Test Driven Development",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Object-Oriented Programming (OOP)",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Heroku",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "NoSQL",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Leadership",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Vue.js",
+        "level": "",
+        "keywords": []
+      },
+      {
+        "name": "Agile Methodologies",
+        "level": "",
+        "keywords": []
+      }
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "fluency": "Native Speaker"
+      }
+    ],
+    "interests": [],
+    "references": [],
+    "projects": [],
+    "meta": {
+      "version": "v1.0.0",
+      "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+    }
+  }

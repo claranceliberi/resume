@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "print": "resume export resume.pdf --theme caffeine"
+  },
+  "dependencies": {
+    "resume-cli": "^3.0.8"
+  }
+}
