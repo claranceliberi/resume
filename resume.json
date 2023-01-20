@@ -2,13 +2,12 @@
     "basics": {
       "name": "Clarance Liberiste Ntwari",
       "label": "Software Engineer | Typescript & Node.js",
-      "image": "",
+      "image": "https://res.cloudinary.com/dawr8i20o/image/upload/v1674206107/unshared/passports/WhatsApp_Image_2022-10-10_at_11.41.37-removebg-preview_iwjwuu.jpg",
       "email": "liberintwari@gmail.com",
-      "phone": "",
-      "url": "",
-      "summary": "Innovative, task-driven, and passionate software developer with many years of software development and over 3 years of remote development.\n\nHaving led teams using different Agile methodologies(Kanban and Scrum), and having worked remotely for over 3 years makes me adaptable and understand the importance of communication",
+      "url": "https://www.claranceliberi.me",
+      "summary": "Programmer with over 5 years of experience who is creative, dedicated, and enthusiastic about their work. Competent with Typescript, React, Vue, and Node.js My experience as a team leader in two different Agile frameworks (Kanban and Scrum) and three years of working remotely has made me flexible and taught me the value of clear and effective communication.",
       "location": {
-        "countryCode": "US",
+        "countryCode": "RW",
         "address": "Rwanda"
       },
       "profiles": [
@@ -16,19 +15,29 @@
           "network": "LinkedIn",
           "username": "clarance-liberiste-ntwari-27a484184",
           "url": "https://www.linkedin.com/in/clarance-liberiste-ntwari-27a484184/"
+        },
+        {
+          "network": "GitHub",
+          "username": "claranceliberi",
+          "url": "https://github.com/claranceliberi"
+        },
+        {
+          "network": "Twitter",
+          "username": "claranceliberi",
+          "url": "https://twitter.com/claranceliberi"
         }
       ]
     },
     "work": [
       {
-        "name": "bp",
+        "name": "British Petroleum (BP)",
         "position": "Senior Frontend Developer",
         "startDate": "2022-07-31",
-        "endDate": "",
+        "endDate": "2023-01-01",
         "highlights": [],
         "summary": "By simplifying end-to-end fleet management and offering guidance on how to decarbonize their fleet, a one-stop digital platform operating on BP's Superfleet platform assists fleet managers who want to maximize the efficiency of their fleet. This frees up time to expand their business in a Net Zero world. ​\n\n- I contributed to the Notification Team (Squad), ensuring that Superfleet users may improve their \n   platform experiences by not missing any action or insight made on the platform.\n- I was a part of the Audit Trail Team, whose job it was to keep a log of all the platform's users' past \n   actions.\n- Involvement in Domains Team, managing high-level monorepo architecture for efficient team \n   development and CI/CD pipelines\n\nNX | React.js | Typescript | Webpack | Node.js | Azure Devops",
         "url": "https://www.linkedin.com/company/bp/",
-        "location": "London, England, United Kingdom"
+        "location": "London, England, United Kingdom (Remote)"
       },
       {
         "name": "HuntersOfBook",
@@ -38,7 +47,7 @@
         "highlights": [],
         "summary": "HuntersOfBook is a community for avid readers who want to meet new individuals who share their interest in books.\n\nTechnically I:\n- Created a storybook-like representation of UI elements to streamline frontend development, \n- Created a simple WYSIWYG editor for platform articles\nUsed GraphQL for Integration Between Backend and Frontend Services\n\nGraphQL | Typescript | Vue.js | Node.js | Nest.js | Tailwind | Javascript",
         "url": "",
-        "location": "Istanbul, Turkey"
+        "location": "Istanbul, Turkey (Remote)"
       },
       {
         "name": "IGIHE AND SIGNA LTD",
@@ -60,16 +69,7 @@
         "url": "https://www.linkedin.com/company/kurious-ltd/",
         "location": "Kigali City, Rwanda"
       },
-      {
-        "name": "Future Skills Bootcamp",
-        "position": "Web Development Mentor",
-        "startDate": "2019-12-31",
-        "endDate": "2019-12-31",
-        "highlights": [],
-        "summary": "During my time in the program, I helped teach programming concepts to around three hundred and fifty under 18 children.\n\nOn of the skills covered was:\n - HTML\n - CSS\n - Javascript\n - PHP\n - SQL",
-        "url": "",
-        "location": "Kigali, Kigali City, Rwanda"
-      },
+
       {
         "name": "Stunnity",
         "position": "Software Developer",
@@ -81,13 +81,24 @@
         "location": "Kigali City, Rwanda"
       }
     ],
-    "volunteer": [],
+    "volunteer": [
+      {
+        "name": "Future Skills Bootcamp",
+        "position": "Web Development Mentor",
+        "startDate": "2019-12-31",
+        "endDate": "2019-12-31",
+        "highlights": [],
+        "summary": "During my time in the program, I helped teach programming concepts to around three hundred and fifty under 18 children.\n\nOn of the skills covered was:\n - HTML\n - CSS\n - Javascript\n - PHP\n - SQL",
+        "url": "",
+        "location": "Kigali, Kigali City, Rwanda"
+      }
+    ],
     "education": [
       {
         "institution": "Rwanda Coding Academy",
-        "area": "Cyber/Computer Forensics and Counterterrorism & Computer Software Engineering",
+        "area": "Software Programming & Embedded System",
         "studyType": "Associate's degree",
-        "startDate": "2019-12-31",
+        "startDate": "2019-02-31",
         "endDate": "2022-07-31",
         "score": "",
         "courses": []
@@ -131,197 +142,17 @@
         "name": "Webpack",
         "level": "",
         "keywords": []
-      },
-      {
-        "name": "TypeScript",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "GraphQL",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Scrum",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Back-End Web Development",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Progressive Web Applications (PWAs)",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Full-Stack Development",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Strategic Thinking",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "HTML",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Git",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Node.js",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Docker Products",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "PHP",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Agile Application Development",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "WebSocket",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Software Engineers",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Cascading Style Sheets (CSS)",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Java",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "GitHub",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Public Speaking",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "SQL",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "MySQL",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Bootstrap",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "JavaScript",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "React.js",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Testing",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Laravel",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Gitlab",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Critical Thinking",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "PostgreSQL",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Nuxt.js",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Test Driven Development",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Object-Oriented Programming (OOP)",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Heroku",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "NoSQL",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Leadership",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Vue.js",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Agile Methodologies",
-        "level": "",
-        "keywords": []
       }
+      
     ],
     "languages": [
       {
         "language": "English",
-        "fluency": "Native Speaker"
+        "fluency": "Professional Language"
+      },
+      {
+        "language": "Kinyarwanda",
+        "fluency": "Native Language"
       }
     ],
     "interests": [],
