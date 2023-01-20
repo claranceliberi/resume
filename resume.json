@@ -2,11 +2,12 @@
     "basics": {
       "name": "Clarance Liberiste Ntwari",
       "label": "Software Engineer | Typescript & Node.js",
-      "image": "https://res.cloudinary.com/dawr8i20o/image/upload/v1674206107/unshared/passports/WhatsApp_Image_2022-10-10_at_11.41.37-removebg-preview_iwjwuu.jpg",
+      "picture": "https://res.cloudinary.com/dawr8i20o/image/upload/c_thumb,g_faces,h_150,w_150/v1674206107/unshared/passports/WhatsApp_Image_2022-10-10_at_11.41.37-removebg-preview_iwjwuu.jpg",
       "email": "liberintwari@gmail.com",
       "url": "https://www.claranceliberi.me",
-      "summary": "Programmer with over 5 years of experience who is creative, dedicated, and enthusiastic about their work. Competent with Typescript, React, Vue, and Node.js My experience as a team leader in two different Agile frameworks (Kanban and Scrum) and three years of working remotely has made me flexible and taught me the value of clear and effective communication.",
+      "summary": "A experienced software engineer skilled in modern technologies with a focus on creativity, dedication, and continuous self-improvement. Has leadership experience in Agile methodologies and adaptability from working remotely for 3 years, with strong communication skills, problem solving abilities and team-orientation.",
       "location": {
+        "city":"Kigali",
         "countryCode": "RW",
         "address": "Rwanda"
       },
@@ -34,8 +35,13 @@
         "position": "Senior Frontend Developer",
         "startDate": "2022-07-31",
         "endDate": "2023-01-01",
-        "highlights": [],
-        "summary": "By simplifying end-to-end fleet management and offering guidance on how to decarbonize their fleet, a one-stop digital platform operating on BP's Superfleet platform assists fleet managers who want to maximize the efficiency of their fleet. This frees up time to expand their business in a Net Zero world. ​\n\n- I contributed to the Notification Team (Squad), ensuring that Superfleet users may improve their \n   platform experiences by not missing any action or insight made on the platform.\n- I was a part of the Audit Trail Team, whose job it was to keep a log of all the platform's users' past \n   actions.\n- Involvement in Domains Team, managing high-level monorepo architecture for efficient team \n   development and CI/CD pipelines\n\nNX | React.js | Typescript | Webpack | Node.js | Azure Devops",
+        "highlights": [
+          "Contributed to the audit log team, creating a platform that records every user action into a traceable log (audit log).",
+          "Created micro-frontends with Webpack module federation and React.js, which improved the developer experience by 70%.",
+          "Created different components under the Atomic Design principle and Storybook while making the BP design system, reducing component dependency by 35%.",
+          "Wrote Regression and Unit tests of the components in the BP design System."
+        ],
+        "summary": "I made significant contributions to various teams, improved user experiences, managed monorepo architecture, implemented CI/CD pipelines, and helped keep track of past actions on the Superfleet platform.",
         "url": "https://www.linkedin.com/company/bp/",
         "location": "London, England, United Kingdom (Remote)"
       },
@@ -44,42 +50,52 @@
         "position": "Full Stack Engineer",
         "startDate": "2021-04-30",
         "endDate": "2022-06-30",
-        "highlights": [],
-        "summary": "HuntersOfBook is a community for avid readers who want to meet new individuals who share their interest in books.\n\nTechnically I:\n- Created a storybook-like representation of UI elements to streamline frontend development, \n- Created a simple WYSIWYG editor for platform articles\nUsed GraphQL for Integration Between Backend and Frontend Services\n\nGraphQL | Typescript | Vue.js | Node.js | Nest.js | Tailwind | Javascript",
+        "highlights": [
+          "Created Component presentation with storybook, which improved Developer experience by 15%",
+          "Wrote unit test and integration test respecting TDD with Jest and testing-library",
+          "Built end-to-end APIs using Nest.js, PostgreSQL, Prisma, and Graphql",
+          "Developed a powerful WYSIWYG editor using Vue.js, an editor that made it smooth and faster to write content at the rate of 45% by users",
+          "Wrote GitHub Action scripts for PRs, automating PR validations and automatic deployment, speeding up the normal manual process from 15mins to 55 secs"
+        ],
+        "summary": "Improved frontend development and user engagement at HuntersOfBook through storybook UI elements and WYSIWYG editor.",
         "url": "",
         "location": "Istanbul, Turkey (Remote)"
-      },
-      {
-        "name": "IGIHE AND SIGNA LTD",
-        "position": "QA Engineer",
-        "startDate": "2020-07-31",
-        "endDate": "2021-03-31",
-        "highlights": [],
-        "summary": "I have used Golang to perform stress testing, during which I was required to send 10,000 requests per second, and I have conducted both Blackbox and Whitebox tests on the API level and the frontend.\n\nGoLang | Typescript | Javascript | Postman",
-        "url": "",
-        "location": "Rwanda"
-      },
-      {
-        "name": "Kurious ltd",
-        "position": "Frontend Engineer",
-        "startDate": "2019-01-31",
-        "endDate": "2020-05-31",
-        "highlights": [],
-        "summary": "Kurious is an online learning platform that competes with public alternatives like Coursera and Edx but is exclusive to independent educational institutions.\n\n- Many of the front-end tools that enable colleges to provide video and textual materials to students were created by me. \n- I built a front-end messaging service that lets people have a group or individual conversations in real-time, whether in school or not.\n\nVue.js | Nuxt.js.| Typescript | Docker | MongoDb| Node.js | SCSS",
-        "url": "https://www.linkedin.com/company/kurious-ltd/",
-        "location": "Kigali City, Rwanda"
       },
 
       {
         "name": "Stunnity",
         "position": "Software Developer",
-        "startDate": "2017-07-31",
-        "endDate": "2019-01-31",
-        "highlights": [],
-        "summary": "- Published NPM packages, worked on and published Figma and XD plugins, and created a variety of  \n Laravel-based APIs\n- Designed and implemented several user interface elements in Vue.js, with a focus on the e-book hosting service Stunlab.",
+        "startDate": "2019-01-31",
+        "endDate": "2020-05-31",
+        "highlights": [
+          "Led software analysis and design by making Software Requirement Specification (SRS), data dictionaries, DFD, and user use cases",
+          "Setup Gitlab Enterprise server, Jenkins, Tomcat, PM2, Docker, and Kubernetes for Java, Node.js, and react.js app CI/CD",
+          "Integrated 4 backend microservices and Frontend on Gitlab pipeline and deployment",
+          "Led a team of 10, Reviewed code and taught the team how to use modern software methodologies",
+          "Implemented different features on live streaming calls and chat with Node.js and react.js",
+          "Wrote component and e2e tests using the react-testing library and Cypress"
+
+        ],
+        "summary": "Successfully led a team and implemented features at Stunnity through analysis, design, mentorship, and efficient deployment using CI/CD pipeline.",
         "url": "https://www.linkedin.com/company/stunnity/",
         "location": "Kigali City, Rwanda"
+      },
+      {
+        "name": "Kurious ltd",
+        "position": "Frontend Engineer",
+
+        "startDate": "2017-03-31",
+        "endDate": "2019-01-31",
+        "highlights": [
+          "Led software analysis and Design.",
+          "Participated in DevOps on Digital Ocean. And I was responsible for Frontend and its team",
+          "Worked on different modules especially Chat, Live stream, and Students forum using webRTC, socket.io, Vue.js, and Kurento"
+        ],
+        "summary": " I improved the platform's front-end, making it more competitive with Coursera and Edx by developing tools for video and textual materials for students and a real-time messaging service for communication between students and teachers.",
+        "url": "https://www.linkedin.com/company/kurious-ltd/",
+        "location": "Kigali City, Rwanda"
       }
+
     ],
     "volunteer": [
       {
@@ -98,7 +114,7 @@
         "institution": "Rwanda Coding Academy",
         "area": "Software Programming & Embedded System",
         "studyType": "Associate's degree",
-        "startDate": "2019-02-31",
+        "startDate": "2019-02-25",
         "endDate": "2022-07-31",
         "score": "",
         "courses": []
@@ -139,11 +155,36 @@
     "publications": [],
     "skills": [
       {
-        "name": "Webpack",
-        "level": "",
-        "keywords": []
+        "name": "Proficient Languages & Framework",
+        "level": "Advanced",
+        "keywords": [
+          "Typescript","Node.js", "Vue.js", "React.js",""
+        ]
+      },
+      {
+        "name":"Database",
+        "level": "Intermediate - Advanced",
+        "keywords": [
+          "Redis","MongoDB", "MySQL", "PostgreSQL"
+        ]
+      },
+      {
+        "name": "Other languages",
+        "level": "Intermediate",
+        "keywords": [
+          "Python", "Golang", "Java"
+        ]
+      },
+      {
+        "name": "DevOps",
+        "level": "Intermediate",
+        "keywords":["Docker","Ansible","Jenkins","Gitlab", "ADO", "AWS"]
+      },
+      {
+        "name":"Methodologies",
+        "level": "Intermediate",
+        "keywords": ["Agile", "Scrum", "Kanban", "Atomic Design","BEM"]
       }
-      
     ],
     "languages": [
       {
@@ -160,6 +201,7 @@
     "projects": [],
     "meta": {
       "version": "v1.0.0",
+      "theme": "caffeine", 
       "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
     }
   }
