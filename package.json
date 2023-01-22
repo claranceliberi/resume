@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "resume": "resume",
     "print": "resume export resume.pdf --theme caffeine"
   },
   "dependencies": {
