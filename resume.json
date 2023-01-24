@@ -32,7 +32,7 @@
     "work": [
       {
         "company": "British Petroleum (BP)",
-        "position": "Senior Frontend Engineer",
+        "position": "Senior Frontend(React) Engineer",
         "startDate": "2022-07-31",
         "endDate": "2023-01-01",
         "highlights": [
@@ -142,7 +142,7 @@
         "url": "https://drive.google.com/file/d/1X2yX1vlY8wnjyHWdILnC_nSYqvQbudJ3/view?usp=sharing"
       },
       {
-        "name": "Responsive Web Design",
+        "name": "Responsive Web Design", 
         "issuer": "freeCodeCamp",
         "startDate": "2021-07-31",
         "url": "https://freecodecamp.org/certification/ntwari/responsive-web-design"
@@ -165,7 +165,7 @@
         "name": "Proficient Languages/Framework",
         "level": "PROFICIENT",
         "keywords": [
-          "Typescript","Node.js", "Vue.js", "React.js",""
+          "Typescript","Node.js", "Vue.js","Nuxt.js", "GraphQL","Atomic Design"
         ]
       },
       {
@@ -185,7 +185,7 @@
       {
         "name": "DevOps",
         "level": "PROFICIENT",
-        "keywords":["Docker","Ansible","Jenkins","Gitlab", "ADO", "AWS"]
+        "keywords":["Docker","Ansible","Jenkins","Gitlab", "GCP", "AWS"]
       },
       {
         "name":"Methodologies",
