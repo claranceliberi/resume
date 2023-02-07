@@ -2,10 +2,10 @@
     "basics": {
       "name": "Clarance Liberiste Ntwari",
       "label": "Software Engineer | Typescript & Node.js",
+      "picture": "https://res.cloudinary.com/dawr8i20o/image/upload/c_thumb,g_faces,h_150,w_150/v1674206107/unshared/passports/WhatsApp_Image_2022-10-10_at_11.41.37-removebg-preview_iwjwuu.jpg",
       "email": "liberintwari@gmail.com",
       "url": "https://www.claranceliberi.me",
-      "picture": "https://res.cloudinary.com/dawr8i20o/image/upload/c_thumb,g_faces,h_150,w_150/v1674206107/unshared/passports/WhatsApp_Image_2022-10-10_at_11.41.37-removebg-preview_iwjwuu.jpg",
-      "summary": "A software developer with over 7 years of experience developing modern web technologies solutions and has a passion for creativity, dedication, and ongoing personal growth. Has worked in small startups of 4 to large companies of 150 co-workers. Has led team of 10 in Agile methodologies and a track record of working remotely for 3 years, with a strong emphasis on team collaboration and efficient results",
+      "summary": "A software developer with over 5 years of experience developing modern web technologies solutions and has a passion for creativity, dedication, and ongoing personal growth. Has worked in small startups of 4 to large companies of 150 co-workers. Has led team of 10 in Agile methodologies and a track record of working remotely for 3 years, with a strong emphasis on team collaboration and efficient results",
       "location": {
         "city":"Kigali",
         "countryCode": "RW",
@@ -22,6 +22,10 @@
           "network": "Twitter",
           "username": "claranceliberi",
           "url": "https://twitter.com/claranceliberi"
+        },        {
+          "network": "LinkedIn",
+          "username": "clarance-liberiste-ntwari-27a484184",
+          "url": "https://www.linkedin.com/in/clarance-liberiste-ntwari-27a484184/"
         }
       ]
     },
@@ -29,7 +33,7 @@
       {
         "company": "British Petroleum (BP)",
         "position": "Senior Frontend(React) Engineer",
-        "startDate": "2021-07-31",
+        "startDate": "2022-07-31",
         "endDate": "2023-01-01",
         "highlights": [
           "Created an audit log module that records all user actions for traceability, In audit log team.",
@@ -44,7 +48,7 @@
       {
         "company": "HuntersOfBook",
         "position": "Full Stack Engineer",
-        "startDate": "2020-04-30",
+        "startDate": "2021-04-30",
         "endDate": "2022-06-30",
         "highlights": [
           "Created Component presentation with storybook, which improved Developer experience by 15%.",
@@ -60,12 +64,12 @@
 
       {
         "company": "Stunnity",
-        "position": "Senior Software Engineer",
-        "startDate": "2018-01-31",
+        "position": "Javascript Software Engineer",
+        "startDate": "2019-01-31",
         "endDate": "2020-05-31",
         "highlights": [
           "Led software analysis and design by making Software Requirement Specification (SRS), data dictionaries, DFD, and user use cases.",
-          "Setup Gitlab Enterprise server, Jenkins, Tomcat, PM2, Docker, and Kubernetes for Go, Node.js, and react.js app CI/CD.",
+          "Setup Gitlab Enterprise server, Jenkins, Tomcat, PM2, Docker, and Kubernetes for Java, Node.js, and react.js app CI/CD.",
           "Integrated 4 backend microservices and Frontend on Gitlab pipeline and deployment.",
           "Led a team of 10, Reviewed code and taught the team how to use modern software methodologies.",
           "Implemented different features on live streaming calls and chat with Node.js and react.js",
@@ -80,8 +84,8 @@
         "company": "Kurious ltd",
         "position": "Frontend Engineer",
 
-        "startDate": "2015-03-31",
-        "endDate": "2018-01-31",
+        "startDate": "2017-03-31",
+        "endDate": "2019-01-31",
         "highlights": [
           "Developed and led software analysis and design process, resulting in the successful creation of over 20 Software Requirement Specification (SRS) documents, data dictionaries, DFD diagrams, and user use cases.",
           "Setup Gitlab Enterprise server, Jenkins, Tomcat, PM2, Docker, and Kubernetes for Java, Node.js, and Vue.js app CI/CD.",
@@ -115,8 +119,8 @@
     "education": [
       {
         "institution": "Rwanda Coding Academy",
-        "area": "Software Programming & Embedded Systems",
-        "studyType": "Associates Degree in",
+        "area": "Software Programming & Embedded System",
+        "studyType": "Associate's degree",
         "startDate": "2019-02-25",
         "endDate": "2022-07-31",
         "score": "",
@@ -161,7 +165,7 @@
         "name": "Proficient Languages/Framework",
         "level": "PROFICIENT",
         "keywords": [
-          "Typescript","Node.js","Vue.js","Vitest", "Cypress", "Nuxt.js","TailwindCSS","GraphQL"
+          "Typescript","Node.js", "Vue.js","Nuxt.js", "GraphQl","Ionic","React"
         ]
       },
       {
@@ -175,7 +179,7 @@
         "name": "Other languages",
         "level": "Working",
         "keywords": [
-           "Golang", "Fiber", "Java", "Nest.js"
+          "Python", "Golang", "Java"
         ]
       },
       {
@@ -193,6 +197,10 @@
       {
         "language": "English",
         "fluency": "Professional"
+      },
+      {
+        "language": "Kinyarwanda",
+        "fluency": "Native"
       }
     ],
     "interests": [],
