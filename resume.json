@@ -1,7 +1,7 @@
 {
     "basics": {
       "name": "Clarance Liberiste Ntwari",
-      "label": "Software Engineer | Typescript & Node.js",
+      "label": "Software Engineer | Vue.js & Typescript & Node.js",
       "picture": "https://res.cloudinary.com/dawr8i20o/image/upload/c_thumb,g_faces,h_150,w_150/v1674206107/unshared/passports/WhatsApp_Image_2022-10-10_at_11.41.37-removebg-preview_iwjwuu.jpg",
       "email": "liberintwari@gmail.com",
       "url": "https://www.claranceliberi.me",
@@ -34,7 +34,7 @@
         "company": "British Petroleum (BP)",
         "position": "Senior Frontend Engineer",
         "startDate": "2022-07-31",
-        "endDate": "2023-01-01",
+        "endDate": "2023-05-01",
         "highlights": [
           "Created an audit log module that records all user actions for traceability, In audit log team.",
           "Created micro-frontends with Webpack module federation and React.js, which improved the developer experience by 70%.",
@@ -165,7 +165,7 @@
         "name": "Proficient Languages/Framework",
         "level": "PROFICIENT",
         "keywords": [
-          "Typescript","Node.js", "React.js", "Vue.js", "Java", "Spring-boot", "Spring Framework"
+          "Typescript","Node.js", "React.js", "Vue.js", "Java", "Spring-boot", "Golang Gin"
         ]
       },
       {
