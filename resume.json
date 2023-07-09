@@ -28,11 +28,12 @@
     "work": [
       {
         "company": "British Petroleum (BP)",
-        "position": "Senior Frontend(React) Engineer",
+        "position": "Senior FullStack(Go & React) Engineer",
         "startDate": "2021-07-31",
         "endDate": "2023-01-01",
         "highlights": [
-          "Created an audit log module that records all user actions for traceability, In audit log team.",
+          "Created an audit log microservice in golang gin that records all user actions for traceability, In audit log team.",
+          "Developed a notification microservice in golang gin that handles all notifications for the SuperFleet platform, the notification well streamlined in kafka and redis.",
           "Created micro-frontends with Webpack module federation and React.js, which improved the developer experience by 70%.",
           "Created different components under the Atomic Design principle and Storybook while making the BP design system, reducing component dependency by 35%.",
           "Wrote Regression and Unit tests of the components in the BP design System."
@@ -78,7 +79,7 @@
       },
       {
         "company": "Kurious ltd",
-        "position": "Frontend Engineer",
+        "position": "Full Stack Engineer",
 
         "startDate": "2015-03-31",
         "endDate": "2018-01-31",
