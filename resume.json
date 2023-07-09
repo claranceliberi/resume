@@ -162,7 +162,7 @@
         "name": "Proficient Languages/Framework",
         "level": "PROFICIENT",
         "keywords": [
-          "Typescript","Node.js","Vue.js","Vitest", "Cypress", "Nuxt.js","TailwindCSS","GraphQL"
+          "Typescript","Node.js","Vue.js","Vitest", "Cypress", "Golang"
         ]
       },
       {
@@ -176,7 +176,7 @@
         "name": "Other languages",
         "level": "Working",
         "keywords": [
-           "Golang", "Fiber", "Java", "Nest.js"
+           "Golang", "Gin", "Java", "Nest.js"
         ]
       },
       {
