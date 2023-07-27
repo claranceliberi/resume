@@ -1,11 +1,11 @@
 {
     "basics": {
       "name": "Clarance Liberiste Ntwari",
-      "label": "Software Engineer | Vue.js & Typescript & Node.js",
+      "label": "Software Engineer | React.js & Typescript & Node.js",
       "picture": "https://res.cloudinary.com/dawr8i20o/image/upload/c_thumb,g_faces,h_150,w_150/v1674206107/unshared/passports/WhatsApp_Image_2022-10-10_at_11.41.37-removebg-preview_iwjwuu.jpg",
       "email": "liberintwari@gmail.com",
       "url": "https://www.claranceliberi.me",
-      "summary": "A software developer with over 3 years of experience developing modern web technologies solutions and has a passion for creativity, dedication, and ongoing personal growth. Has worked in small startups of 4 to large companies of 150 co-workers. Has led team of 10 in Agile methodologies and a track record of working remotely for 3 years, with a strong emphasis on team collaboration and efficient results",
+      "summary": "A software developer with over 4 years of experience developing modern web technologies solutions and has a passion for creativity, dedication, and ongoing personal growth. Has worked in small startups of 4 to large companies of 150 co-workers. Has led team of 10 in Agile methodologies and a track record of working remotely for 3 years, with a strong emphasis on team collaboration and efficient results",
       "location": {
         "city":"Kigali",
         "countryCode": "RW",
@@ -54,7 +54,7 @@
           "Created Component presentation with storybook, which improved Developer experience by 15%.",
           "Wrote unit test and integration test respecting TDD with Jest and testing-library",
           "Built end-to-end APIs using Nest.js, PostgreSQL, Prisma, and Graphql.",
-          "Developed a powerful WYSIWYG editor using Vue.js, an editor that made content writing smooth and faster with a 45% increase in efficiency for users.",
+          "Developed a powerful WYSIWYG editor using React.js, an editor that made content writing smooth and faster with a 45% increase in efficiency for users.",
           "Wrote GitHub Action scripts for PRs, automating PR validations and automatic deployment, speeding up the normal manual process from 15mins to 55 secs."
         ],
         "summary": "Improved frontend development and user engagement at HuntersOfBook through storybook UI components and WYSIWYG editor.",
@@ -88,9 +88,9 @@
         "endDate": "2021-03-31",
         "highlights": [
           "Developed and led software analysis and design process, resulting in the successful creation of over 20 Software Requirement Specification (SRS) documents, data dictionaries, DFD diagrams, and user use cases.",
-          "Setup Gitlab Enterprise server, Jenkins, Tomcat, PM2, Docker, and Kubernetes for Java, Node.js, and Vue.js app CI/CD.",
+          "Setup Gitlab Enterprise server, Jenkins, Tomcat, PM2, Docker, and Kubernetes for Java, Node.js, and React.js app CI/CD.",
           "Implemented DevOps workflows on Digital Ocean, speeding CI/CD process by 30%.",
-          "Developed Chat, Live Stream, and Students Forum modules, resulting in a 50% increase in user engagement and communication, utilizing technologies such as webRTC, socket.io, Vue.js, and Kurento."
+          "Developed Chat, Live Stream, and Students Forum modules, resulting in a 50% increase in user engagement and communication, utilizing technologies such as webRTC, socket.io, React.js, and Kurento."
         ],
         "summary": "Developed tools for video and textual materials for students and a real-time messaging service for communication between students and teachers, improving the platform's front-end, making the platform more competitive with Coursera and Edx.",
         "url": "https://www.linkedin.com/company/kurious-ltd/",
@@ -165,7 +165,7 @@
         "name": "Proficient Languages/Framework",
         "level": "PROFICIENT",
         "keywords": [
-          "Typescript","Node.js", "React.js", "Vue.js", "Java", "Spring-boot", "Golang Gin"
+          "Typescript","Node.js", "React.js", "React.js", "Java", "Spring-boot", "Golang Gin"
         ]
       },
       {
