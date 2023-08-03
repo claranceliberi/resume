@@ -34,7 +34,7 @@
         "highlights": [
           "Created an audit log microservice in golang gin that records all user actions for traceability, In audit log team.",
           "Developed a notification microservice in golang gin that handles all notifications for the SuperFleet platform, the notification well streamlined in kafka and redis.",
-          "Created micro-frontends with Webpack module federation and vue.js, which improved the developer experience by 70%.",
+          "Created micro-frontends with Webpack module federation and React.js, which improved the developer experience by 70%.",
           "Created different components under the Atomic Design principle and Storybook while making the BP design system, reducing component dependency by 35%.",
           "Wrote Regression and Unit tests of the components in the BP design System."
         ],
@@ -69,7 +69,7 @@
           "Setup Gitlab Enterprise server, Jenkins, Tomcat, PM2, Docker, and Kubernetes for Go, Node.js, and vue.js app CI/CD.",
           "Integrated 4 backend microservices and Frontend on Gitlab pipeline and deployment.",
           "Led a team of 10, Reviewed code and taught the team how to use modern software methodologies.",
-          "Implemented different features on live streaming calls and chat with Node.js and vue.js",
+          "Implemented different features on live streaming calls and chat with Node.js and React.js",
           "Wrote component and e2e tests using the react-testing library and Cypress."
 
         ],
@@ -162,7 +162,7 @@
         "name": "Proficient Languages/Framework",
         "level": "PROFICIENT",
         "keywords": [
-          "Typescript","Node.js","Vue.js","Vitest", "Cypress", "Golang"
+          "Typescript","Node.js", "React.js","Vue.js","Vitest", "Cypress", "Golang"
         ]
       },
       {
