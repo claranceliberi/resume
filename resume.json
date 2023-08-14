@@ -31,10 +31,28 @@
     },
     "work": [
       {
-        "company": "British Petroleum (BP)",
+        "company": "Pivot Access, Rwanda (Onsite)",
+        "position": "Full Stack Engineer, Professional Intern",
+        "startDate": "2023-05-01",
+        "endDate": "2023-08-01",
+        "highlights": [
+          "Spearheaded the setup of micro frontends using React Next.js, enabling seamless collaboration across 7 independent modules without client disruptions.",
+          "Led and mentored a team of 12 frontend developers, emphasizing code reviews and adherence to best coding practices to maintain high code quality.",
+          "Architected and implemented a CI/CD pipeline using GitLab, pnpm, Docker and Kubernates, slashing the time required for linting, testing, and deploying multiple micro frontends.",
+          "Championed creating and deploying the Tekana Components library, crafted with React, TypeScript, and TailwindCSS. Ensured its availability on npm and chromatic for widespread use by various frontend teams.",
+          "Developed comprehensive CI/CD pipeline flow charts and frontend project documentation, simplifying the onboarding process for new team members.",
+          "Advocated and provided guidance on the implementation of Atomic Design principles, fortifying consistency and scalability within the component library.",
+          "Pioneered the adoption of pnpm monorepo within the team, streamlining code and tool standardization across different teams."
+        ],
+        "summary": "",
+        "url": "https://www.linkedin.com/company/bp/",
+        "location": "London, England, United Kingdom (Remote)"
+      },
+      {
+        "company": "British Petroleum (BP), UK (Remote)",
         "position": "Senior Frontend Engineer",
-        "startDate": "2022-07-31",
-        "endDate": "2023-05-01",
+        "startDate": "2022-07-01",
+        "endDate": "2023-03-01",
         "highlights": [
           "Created an audit log module that records all user actions for traceability, In audit log team.",
           "Created micro-frontends with Webpack module federation and Vue.js, which improved the developer experience by 70%.",
@@ -46,7 +64,7 @@
         "location": "London, England, United Kingdom (Remote)"
       },
       {
-        "company": "HuntersOfBook",
+        "company": "HuntersOfBook, Turkey (Remote)",
         "position": "Software Full Stack Engineer",
         "startDate": "2021-04-30",
         "endDate": "2022-06-30",
@@ -63,7 +81,7 @@
       },
 
       {
-        "company": "Ministry of ICT & Rwanda Coding Academy",
+        "company": "Ministry of ICT & Rwanda Coding Academy, Rwanda(Remote)",
         "position": "Software Full Stack Engineer",
         "startDate": "2021-08-31",
         "endDate": "2022-07-31",
@@ -81,7 +99,7 @@
         "location": "Kigali City, Rwanda"
       },
       {
-        "company": "Kurious ltd",
+        "company": "Kurious ltd, Rwanda(Remote)",
         "position": "Frontend Engineer",
 
         "startDate": "2020-07-31",
