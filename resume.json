@@ -34,7 +34,7 @@
         "company": "Pivot Access, Rwanda (Onsite)",
         "position": "Full Stack Engineer, Professional Intern",
         "startDate": "2023-05-01",
-        "endDate": "2023-08-01",
+        "endDate": "2023-10-01",
         "highlights": [
           "Spearheaded the setup of micro frontends using React Next.js, enabling seamless collaboration across 7 independent modules without client disruptions.",
           "Led and mentored a team of 12 frontend developers, emphasizing code reviews and adherence to best coding practices to maintain high code quality.",
@@ -42,11 +42,11 @@
           "Championed creating and deploying the Tekana Components library, crafted with React, TypeScript, and TailwindCSS. Ensured its availability on npm and chromatic for widespread use by various frontend teams.",
           "Developed comprehensive CI/CD pipeline flow charts and frontend project documentation, simplifying the onboarding process for new team members.",
           "Advocated and provided guidance on the implementation of Atomic Design principles, fortifying consistency and scalability within the component library.",
-          "Pioneered the adoption of pnpm monorepo within the team, streamlining code and tool standardization across different teams."
+          "Pioneered the adoption of monorepo using PNPM and TurboRepo within the team, streamlining code and tool standardization across different teams."
         ],
-        "summary": "",
-        "url": "https://www.linkedin.com/company/bp/",
-        "location": "London, England, United Kingdom (Remote)"
+        "summary": "As part of my mandatory graduation internship from Rwanda Coding Academy, I played a pivotal role in the development of 'Tekana', a platform designed to manage the Rwanda National Police's daily operations, including traffic fines, driving license examinations, Moto Vehicle Inspection and license provisioning. Subsequently, as a seasoned Fullstack Engineer at Pivot Access here is what I did:",
+        "url": "https://www.pivotaccess.com/",
+        "location": "Kigali City, Rwanda (Onsite)"
       },
       {
         "company": "British Petroleum (BP), UK (Remote)",
