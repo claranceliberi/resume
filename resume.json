@@ -1,11 +1,11 @@
 {
     "basics": {
       "name": "Clarance Liberiste Ntwari",
-      "label": "Software Engineer | Vue.js & Typescript & Node.js",
+      "label": "Software Engineer | Typescript & Node.js",
       "picture": "https://res.cloudinary.com/dawr8i20o/image/upload/v1690972585/unshared/passports/IMG_8252_3-min_l3hutm.jpg",
       "email": "liberintwari@gmail.com",
       "url": "https://www.claranceliberi.me",
-      "summary": "A software developer with over 4 years of experience developing modern web technologies solutions and has a passion for creativity, dedication, and ongoing personal growth. Has worked in small startups of 4 to large companies of 150 co-workers. Has led team of 10 in Agile methodologies and a track record of working remotely for 3 years, with a strong emphasis on team collaboration and efficient results",
+      "summary": "A software developer with over 6 years of experience developing modern web technologies solutions and has a passion for creativity, dedication, and ongoing personal growth. Has worked in small startups of 4 to large companies of 150 co-workers. Has led team of 10 in Agile methodologies and a track record of working remotely for 3 years, with a strong emphasis on team collaboration and efficient results",
       "location": {
         "city":"Kigali",
         "countryCode": "RW",
@@ -36,30 +36,31 @@
         "startDate": "2023-05-01",
         "endDate": "2023-10-01",
         "highlights": [
-          "Spearheaded the setup of micro frontends using React Next.js, enabling seamless collaboration across 7 independent modules without client disruptions.",
-          "Led and mentored a team of 12 frontend developers, emphasizing code reviews and adherence to best coding practices to maintain high code quality.",
-          "Architected and implemented a CI/CD pipeline using GitLab, pnpm, Docker and Kubernates, slashing the time required for linting, testing, and deploying multiple micro frontends.",
-          "Championed creating and deploying the Tekana Components library, crafted with React, TypeScript, and TailwindCSS. Ensured its availability on npm and chromatic for widespread use by various frontend teams.",
+          "Led a team of 12 developers, emphasizing code reviews and adherence to best coding practices to maintain high code quality. Implemented a CI/CD pipeline using GitLab, pnpm, Docker, and Kubernetes, slashing the time required for linting, testing, and deploying multiple micro frontends.",
+          "Created the Tekana Components library, crafted with Typescript, and ensured its availability on npm and storybook for widespread use by various frontend teams.",
           "Developed comprehensive CI/CD pipeline flow charts and frontend project documentation, simplifying the onboarding process for new team members.",
-          "Advocated and provided guidance on the implementation of Atomic Design principles, fortifying consistency and scalability within the component library.",
-          "Pioneered the adoption of monorepo using PNPM and TurboRepo within the team, streamlining code and tool standardization across different teams."
+          "Guided the implementation of Atomic Design principles, fortifying consistency and scalability within the component library.",
+          "Worked on User microservice written in Spring boot, enabling Authentication and Authorization with Role Based Access, and Wrote high performant SQL queries to write aggregated reports in Postgres DB",
+          "Implemented User activity and Access Audit log on User microservice and Audit logs microservice",
+          "Worked on Report and analytics microservice using Clickhouse DB, configured Clickhouse to sync reports from other 19 Postgres DB replicas, and then wrote high performant queries to retrieve analytics."
         ],
-        "summary": "As part of my mandatory graduation internship from Rwanda Coding Academy, I played a pivotal role in the development of 'Tekana', a platform designed to manage the Rwanda National Police's daily operations, including traffic fines, driving license examinations, Moto Vehicle Inspection and license provisioning. Subsequently, as a seasoned Fullstack Engineer at Pivot Access here is what I did:",
+        "summary": "I played a big role in the development of 'Tekana', a platform designed to manage the Rwanda National Police's daily operations, including traffic fines, driving license examinations, Moto Vehicle Inspection, and license provisioning. Subsequently, as a seasoned Fullstack Engineer at Pivot Access here is what I did",
         "url": "https://www.pivotaccess.com/",
         "location": "Kigali City, Rwanda (Onsite)"
       },
       {
         "company": "British Petroleum (BP), UK (Remote)",
-        "position": "Senior Frontend Engineer",
+        "position": "Senior Fullstack Engineer",
         "startDate": "2022-07-01",
         "endDate": "2023-03-01",
         "highlights": [
-          "Created an audit log module that records all user actions for traceability, In audit log team.",
-          "Created micro-frontends with Webpack module federation and Vue.js, which improved the developer experience by 70%.",
+          "I contributed to the Notification Team (Squad) using Node.js and Postgres, ensuring that Superfleet users may improve their platform experiences by not missing any action or insight made on the platform.",
+          "I was a part of the Audit Trail Team, whose job it was to keep a log of all the platform's users' past actions. I wrote performant SQL queries to retrieve millions of audits in Postgres.",
           "Created different components under the Atomic Design principle and Storybook while making the BP design system, reducing component dependency by 35%.",
-          "Wrote Regression and Unit tests of the components in the BP design System."
+          "Wrote Regression and Unit tests of the components in the BP design System.",
+          "Involvement in Domains Team, managing high-level monorepo architecture with NX for efficient team development and CI/CD pipelines."
         ],
-        "summary": "Delivered significant contributions to different teams, improved user experiences, managed monorepo architecture, implemented CI/CD pipelines, and helped keep track of action logs on the Superfleet platform.",
+        "summary": "By simplifying end-to-end fleet management and offering guidance on how to decarbonize their fleet, a one-stop digital platform operating on BP's Superfleet platform assists fleet managers who want to maximize the efficiency of their fleet. This frees up time to expand their business in a Net Zero world. ​",
         "url": "https://www.linkedin.com/company/bp/",
         "location": "London, England, United Kingdom (Remote)"
       },
@@ -94,7 +95,7 @@
           "Wrote component and e2e tests using the react-testing library and Cypress."
 
         ],
-        "summary": "Led a team and implemented features at Stunnity through analysis, design, mentorship, and efficient deployment using CI/CD pipeline.",
+        "summary": "Led a team and implemented features through analysis, design, mentorship, and efficient deployment using CI/CD pipeline.",
         "url": "https://www.linkedin.com/company/stunnity/",
         "location": "Kigali City, Rwanda"
       },
@@ -102,7 +103,7 @@
         "company": "Kurious ltd, Rwanda(Remote)",
         "position": "Frontend Engineer",
 
-        "startDate": "2020-07-31",
+        "startDate": "2018-07-31",
         "endDate": "2021-03-31",
         "highlights": [
           "Developed and led software analysis and design process, resulting in the successful creation of over 20 Software Requirement Specification (SRS) documents, data dictionaries, DFD diagrams, and user use cases.",
@@ -111,7 +112,6 @@
           "Developed Chat, Live Stream, and Students Forum modules, resulting in a 50% increase in user engagement and communication, utilizing technologies such as webRTC, socket.io, Vue.js, and Kurento."
         ],
         "summary": "Developed tools for video and textual materials for students and a real-time messaging service for communication between students and teachers, improving the platform's front-end, making the platform more competitive with Coursera and Edx.",
-        "url": "https://www.linkedin.com/company/kurious-ltd/",
         "location": "Kigali City, Rwanda"
       }
 
@@ -139,8 +139,17 @@
         "institution": "Rwanda Coding Academy",
         "area": "Software Programming & Embedded System",
         "studyType": "Associate's degree",
-        "startDate": "2019-02-25",
-        "endDate": "2022-07-31",
+        "startDate": "",
+        "endDate": "",
+        "score": "",
+        "courses": []
+      },
+      {
+        "institution": "African Leadership University",
+        "area": "Software Engineering",
+        "studyType": "Bachelor's degree",
+        "startDate": "",
+        "endDate": "",
         "score": "",
         "courses": []
       }
@@ -190,7 +199,7 @@
         "name":"Database",
         "level": "PROFICIENT",
         "keywords": [
-          "Redis","MongoDB", "MySQL", "PostgreSQL"
+          "Clickhouse","MongoDB", "MySQL", "PostgreSQL"
         ]
       },
       {
