@@ -32,7 +32,7 @@
     "work": [
       {
         "company": "Pivot Access, Rwanda (Onsite)",
-        "position": "Full Stack Engineer, Professional Intern",
+        "position": "Full Stack Engineer",
         "startDate": "2023-05-01",
         "endDate": "2023-10-01",
         "highlights": [
@@ -44,7 +44,7 @@
           "Advocated and provided guidance on the implementation of Atomic Design principles, fortifying consistency and scalability within the component library.",
           "Pioneered the adoption of monorepo using PNPM and TurboRepo within the team, streamlining code and tool standardization across different teams."
         ],
-        "summary": "As part of my mandatory graduation internship from Rwanda Coding Academy, I played a pivotal role in the development of 'Tekana', a platform designed to manage the Rwanda National Police's daily operations, including traffic fines, driving license examinations, Moto Vehicle Inspection and license provisioning. Subsequently, as a seasoned Fullstack Engineer at Pivot Access here is what I did:",
+        "summary": "I played a key role in the development of 'Tekana', a platform designed to manage the Rwanda National Police's daily operations, including traffic fines, driving license examinations, Moto Vehicle Inspection and license provisioning. Subsequently, as a seasoned Fullstack Engineer at Pivot Access here is what I did:",
         "url": "https://www.pivotaccess.com/",
         "location": "Kigali City, Rwanda (Onsite)"
       },
