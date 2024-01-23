@@ -85,7 +85,7 @@
           "Wrote GitHub Action scripts for PRs, automating PR validations and automatic deployment, speeding up the normal manual process from 15mins to 55 secs."
         ],
         "summary": "Improved frontend development and user engagement at HuntersOfBook through storybook UI components and WYSIWYG editor.",
-        "url": "",
+        "url": "https://dev.huntersofbook.com/login",
         "location": "Istanbul, Turkey (Remote)"
       },
 
@@ -138,7 +138,7 @@
         
         ],
         "summary": "Taught programming concepts to 350 children under 18 during a two week program.",
-        "url": "",
+        "url": "https://www.minict.gov.rw/news-detail/minict-launches-the-second-edition-of-coding-bootcamp",
         "location": "Kigali, Kigali City, Rwanda"
       }
     ],
@@ -147,18 +147,13 @@
         "institution": "Rwanda Coding Academy",
         "area": "Software Programming & Embedded System",
         "studyType": "Associate's degree",
-        "startDate": "",
-        "endDate": "",
-        "score": "",
+
         "courses": []
       },
       {
         "institution": "African Leadership University",
         "area": "Software Engineering",
         "studyType": "Bachelor's degree",
-        "startDate": "",
-        "endDate": "",
-        "score": "",
         "courses": []
       }
     ],
@@ -239,7 +234,7 @@
     "projects": [],
     "meta": {
       "version": "v1.0.0",
-      "theme": "caffeine", 
+      "theme": "macchiato", 
       "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
     }
   }
