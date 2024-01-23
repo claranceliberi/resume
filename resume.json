@@ -5,7 +5,7 @@
       "picture": "https://res.cloudinary.com/dawr8i20o/image/upload/v1690972585/unshared/passports/IMG_8252_3-min_l3hutm.jpg",
       "email": "liberintwari@gmail.com",
       "url": "https://www.claranceliberi.me",
-      "summary": "A software developer with over 4 years of experience developing modern web technologies solutions and has a passion for creativity, dedication, and ongoing personal growth. Has worked in small startups of 4 to large companies of 150 co-workers. Has led team of 10 in Agile methodologies and a track record of working remotely for 3 years, with a strong emphasis on team collaboration and efficient results",
+      "summary": "A software developer with over 6 years of experience developing modern web technologies solutions and has a passion for creativity, dedication, and ongoing personal growth. Has worked in small startups of 4 to large companies of 150 co-workers. Has led team of 10 in Agile methodologies and a track record of working remotely for 3 years, with a strong emphasis on team collaboration and efficient results",
       "location": {
         "city":"Kigali",
         "countryCode": "RW",
@@ -27,10 +27,22 @@
     },
     "work": [
       {
+        "company": "RSSB, Rwanda (Hybrid)",
+        "position": "Software Engineer",
+        "startDate": "2024-01-30",
+        "endDate": "2024-01-15",
+        "highlights": [
+          
+        ],
+        "summary": "",
+        "url": "https://www.pivotaccess.com/",
+        "location": "Kigali City, Rwanda (Onsite)"
+      },
+      {
         "company": "Pivot Access, Rwanda (Onsite)",
-        "position": "Full Stack Engineer, Professional Intern",
+        "position": "Full Stack Engineer",
         "startDate": "2023-05-01",
-        "endDate": "2023-10-01",
+        "endDate": "2024-01-01",
         "highlights": [
           "Led a team of 12 developers, emphasizing code reviews and adherence to best coding practices to maintain high code quality. Implemented a CI/CD pipeline using GitLab, pnpm, Docker, and Kubernetes, slashing the time required for linting, testing, and deploying multiple micro frontends.",
           "Created the Tekana Components library, crafted with Typescript, and ensured its availability on npm and storybook for widespread use by various frontend teams.",
@@ -40,7 +52,7 @@
           "Implemented User activity and Access Audit log on User microservice and Audit logs microservice",
           "Worked on Report and analytics microservice using Clickhouse DB, configured Clickhouse to sync reports from other 19 Postgres DB replicas, and then wrote high performant queries to retrieve analytics."
         ],
-        "summary": "I played a big role in the development of 'Tekana', a platform designed to manage the Rwanda National Police's daily operations, including traffic fines, driving license examinations, Moto Vehicle Inspection, and license provisioning. Subsequently, as a seasoned Fullstack Engineer at Pivot Access here is what I did",
+        "summary": "I played a key role in the development of 'Tekana', a platform designed to manage the Rwanda National Police's daily operations, including traffic fines, driving license examinations, Moto Vehicle Inspection and license provisioning. Subsequently, as a seasoned Fullstack Engineer at Pivot Access here is what I did:",
         "url": "https://www.pivotaccess.com/",
         "location": "Kigali City, Rwanda (Onsite)"
       },
@@ -99,7 +111,7 @@
         "company": "Kurious ltd, Rwanda(Remote)",
         "position": "Frontend Engineer",
 
-        "startDate": "2020-07-31",
+        "startDate": "2018-07-31",
         "endDate": "2021-03-31",
         "highlights": [
           "Developed and led software analysis and design process, resulting in the successful creation of over 20 Software Requirement Specification (SRS) documents, data dictionaries, DFD diagrams, and user use cases.",
