@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Clarance Liberiste Ntwari | Resume</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet">
+    <style type="text/css">
+    @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800);
+@charset "utf-8";
+@-webkit-viewport   { width: device-width; }
+@-moz-viewport      { width: device-width; }
+@-ms-viewport       { width: device-width; }
+@-o-viewport        { width: device-width; }
+@viewport           { width: device-width; }
+
+body{
+  font-family: 'Open Sans', Arial, Tahoma;
+  font-weight: 400;
+  color: #363636;
+  background: #222831;
+}
+blockquote {
+  font-size: 1em;
+}
+
+.container{
+  margin-top: 80px;
+  margin-bottom: 15px;
+  background: #fff;
+}
+
+#photo-header{
+  margin-top: -75px;
+}
+#photo{
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  overflow: hidden;
+  padding: 5px;
+  background: #334960;
+  display: inline-block;
+}
+#photo img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+#text-header {
+  margin-top: 90px;
+}
+#text-header h1{
+  margin: 0;
+  padding: 0;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
+#text-header h1::first-line{
+  font-size: 1.5em;
+  font-weight: 800;
+  line-height: 1.5em;
+}
+#text-header h1 span{
+  color: #334960;
+  opacity: 0.7;
+}
+#text-header h1 sup{
+  opacity: 0.5;
+}
+#text-header:after{
+  width: 100%;
+  height: 3px;
+  border-bottom: 1px solid #ddd;
+  margin-top: 15px;
+  content: '';
+  display: block;
+}
+
+.box{
+  padding-bottom: 10px;
+  margin-bottom: 25px;
+}
+.box h2{
+  color: #2c3e50;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#awards,
+#certificates,
+#education {
+  margin-top: 20px;
+  margin-bottom: 0;
+  position: relative;
+  padding: 1em 0;
+  list-style: none;
+}
+#awards:before,
+#certificates:before,
+#education:before {
+  width: 5px;
+  height: 100%;
+  position: absolute;
+  left: 35px;
+  top: 0;
+  content: ' ';
+  display: block;
+  background: #0ad1d1;
+  background: -moz-linear-gradient(top,  #ffffff 0%, #0ad1d1 7%, #0ad1d1 89%, #ffffff 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(7%,#0ad1d1), color-stop(89%,#0ad1d1), color-stop(100%,#ffffff));
+  background: -webkit-linear-gradient(top,  #ffffff 0%,#0ad1d1 7%,#0ad1d1 89%,#ffffff 100%);
+  background: -o-linear-gradient(top,  #ffffff 0%,#0ad1d1 7%,#0ad1d1 89%,#ffffff 100%);
+  background: -ms-linear-gradient(top,  #ffffff 0%,#0ad1d1 7%,#0ad1d1 89%,#ffffff 100%);
+  background: linear-gradient(to bottom,  #ffffff 0%,#0ad1d1 7%,#0ad1d1 89%,#ffffff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 );
+}
+#awards li,
+#certificates li,
+#education li{
+  width: 100%;
+  z-index: 2;
+  position: relative;
+  float: left;
+}
+#awards .year,
+#certificates .year,
+#education .year{
+  width: 14%;
+  background: #fff;
+  padding: 10px;
+  font-weight: 700;
+  display: inline-block;
+}
+#awards .description,
+#certificates .description,
+#education .description{
+  width: 83%;
+  display: inline-block;
+  background: #eee;
+  margin-bottom: 10px;
+  position: relative;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+#awards .description:after,
+#certificates .description:after,
+#education .description:after {
+  content: '';
+  position: absolute;
+  top: 15px;
+  right: 0;
+  left: -16px;
+  height: 0;
+  width: 0;
+  border: solid transparent;
+  border-right-color: #eee;
+  border-width: 8px;
+  pointer-events: none;
+}
+#awards .description h3,
+#certificates .description h3,
+#education .description h3{
+  font-size: 1.2em;
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+}
+#awards .description p,
+#certificates .description p,
+#education .description p{
+  margin-top: 5px;
+  padding: 0;
+}
+
+.job{
+  margin-bottom: 15px;
+}
+.job .details {
+  margin-left: 3%;
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background: #eee;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+.job .where{
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.job .year{
+  opacity: 0.7;
+}
+.job .profession{
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.job .description{
+  line-height: 1.5em;
+}
+.job .highlights{
+  padding: 5px 0;
+  font-weight: bold;
+}
+.job .job-details {
+  padding-left: 5%;
+  width: 100%;
+}
+.publication {
+  margin-bottom: 0;
+}
+.publication .name{
+  font-size: 1em;
+  font-weight: bold;
+}
+.publication .year{
+    opacity: 0.7;
+}
+.publication p{
+  margin: 0;
+  padding-top: 10px;
+}
+
+.contact-item{
+  width: 100%;
+  float: left;
+}
+.contact-item .icon{
+  padding: 10px;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  color: #2c3e50;
+  background: #eee;
+}
+.contact-item:last-child .icon{
+  border-bottom: none;
+}
+.contact-item .title{
+  width: 80%;
+  width: calc(100% - 55px);
+  font-weight: 700;
+  opacity: 0.9;
+}
+.contact-item .title.only{
+  margin-top: 10px;
+}
+.contact-item .description{
+  width: 80%;
+  width: calc(100% - 55px);
+  color: #334960;
+}
+
+.item-interests,
+.item-skills{
+  height: 30px;
+  color: #334960;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+.interest,
+.skill{
+  color: #fff;
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding: 5px 10px;
+  background: #0ad1d1;
+  position: relative;
+  font-size: .85em;
+}
+.skill-level {
+  background-color: #2c3e50;
+  border-radius: 4px;
+  color: #fff;
+  padding: 1px 8px;
+  font-size: .75em;
+  position: absolute;
+  margin: 1px 10px;
+}
+
+    </style>
+    <style type="text/css" media="print">
+    body {
+  font-size: .95em;
+  -webkit-print-color-adjust: exact;
+}
+
+a[href]:after {
+  content: none !important;
+}
+
+.container{
+  margin-top: 0px;
+}
+
+#photo{
+  display: none;
+}
+
+.box {
+  margin-bottom: -10px;
+}
+
+blockquote,
+#education,
+#awards,
+#certificates,
+.contact-item,
+.publication,
+.skills,
+.interests {
+  page-break-inside: avoid;
+}
+
+.col-sm-5{
+  width: 40%;
+  padding: 0 15px;
+}
+
+.col-sm-7{
+  width: 60%;
+  padding: 0 15px;
+}
+
+.skills .col-sm-offset-1,
+.interests .col-sm-offset-1{
+  margin-top: -10px;
+  margin-bottom: 5px;
+}
+
+#education {
+  margin: 0;
+  margin-bottom: -20px;
+}
+#awards:before,
+#certificates:before,
+#education:before {
+  background: none;
+}
+
+#text-header:after{
+  border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+#awards .description,
+#certificates .description,
+#education .description,
+.job .details {
+  border: 1px solid #eee;
+}
+.publication,
+.publication .panel-heading,
+.publication .name{
+  margin: 0;
+  padding: 0 5px;
+  border: none;
+}
+.publication .panel-body {
+  padding: 0 10px;
+  margin: 0;
+}
+
+.badge {
+  margin: 0;
+}
+
+.list-group-item{
+  border: none;
+  margin: 0;
+  padding: 5px 15px;
+}
+.list-group-item:after{
+  content: '';
+  position: absolute;
+  top: 8px;
+  right: 0;
+  left: -1px;
+  height: 0;
+  width: 0;
+  border: solid transparent;
+  border-right-color: #999;
+  border-width: 4px;
+  pointer-events: none;
+ }
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div id="photo-header" class="text-center">
+            <div id="text-header">
+              <h1>Clarance Liberiste Ntwari<br><span>Software Engineer</span></h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-7">
+          <!-- ABOUT ME -->
+          <div class="box">
+            <h2><i class="fas fa-user ico"></i> About</h2>
+            <p>I'm a curious and driven software engineer with over 4 years of experience crafting scalable solutions across diverse environments - from startups to large enterprises. I've led teams of up to 12 developers, implementing modern web technologies and DevOps practices that significantly improve development workflows and user experiences. My expertise spans the full stack, with a particular focus on TypeScript, Node.js, and cloud technologies, having delivered impactful solutions that reduced processing times from days to hours at RSSB, implemented high-performance microservices at PivotAccess, and contributed to BP's global fleet management platform. What drives me is the intersection of technical excellence and real-world impact, consistently approaching each challenge with relentless curiosity and a commitment to continuous growth while delivering tangible value to users through performant, scalable software solutions.</p>
+          </div>
+          <!-- WORK EXPERIENCE -->
+          <div class="box">
+            <h2><i class= "fas fa-suitcase ico"></i> Work Experience</h2>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">
+                      
+                      <div class="pull-right">
+                        Kigali City, Rwanda 
+                      </div>
+                    </div>
+                    <div class="address">
+                      <a href="https:&#x2F;&#x2F;www.rssb.rw&#x2F;" target= "_blank"><i class="fas fa-globe ico"></i> https:&#x2F;&#x2F;www.rssb.rw&#x2F;</a>
+                    </div>
+                    <div class="year">January 2024 – November 2024</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Software Engineer</div>
+                    <div class="description">
+                      
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Developed a platform to reimburse maternity leave benefits. The app streamlined the application-to-approval process from 7 days to 1 hour.</li>
+                        <li class="list-group-item">I digitalized pension applications, reducing paperwork from 4 documents to 1 and eliminating office visits by moving the entire process online. Applications now take 10 minutes vs 5 days previously, while the approval workflow was streamlined from 6 to 3 people, bringing approval time from 7 days to 1 day.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">
+                      
+                      <div class="pull-right">
+                        Kigali City, Rwanda 
+                      </div>
+                    </div>
+                    <div class="address">
+                      <a href="https:&#x2F;&#x2F;www.pivotaccess.com&#x2F;" target= "_blank"><i class="fas fa-globe ico"></i> https:&#x2F;&#x2F;www.pivotaccess.com&#x2F;</a>
+                    </div>
+                    <div class="year">May 2023 – January 2024</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Full Stack Engineer</div>
+                    <div class="description">
+                      I played a key role in the development of 'Tekana', a platform designed to manage the Rwanda National Police's daily operations, including traffic fines, driving license examinations, Moto Vehicle Inspection and license provisioning. Subsequently, as a seasoned Fullstack Engineer at Pivot Access here is what I did:
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Led a team of 12 developers, emphasizing code reviews and adherence to best coding practices to maintain high code quality. Implemented a CI/CD pipeline using GitLab, pnpm, Docker, and Kubernetes, slashing the time required for linting, testing, and deploying multiple micro frontends.</li>
+                        <li class="list-group-item">Created the Tekana Components library, crafted with Typescript, and ensured its availability on npm and storybook for widespread use by various frontend teams.</li>
+                        <li class="list-group-item">Developed comprehensive CI/CD pipeline flow charts and frontend project documentation, simplifying the onboarding process for new team members.</li>
+                        <li class="list-group-item">Guided the implementation of Atomic Design principles, fortifying consistency and scalability within the component library.</li>
+                        <li class="list-group-item">Worked on User microservice written in Spring boot, enabling Authentication and Authorization with Role Based Access, and Wrote high performant SQL queries to write aggregated reports in Postgres DB</li>
+                        <li class="list-group-item">Implemented User activity and Access Audit log on User microservice and Audit logs microservice</li>
+                        <li class="list-group-item">Worked on Report and analytics microservice using Clickhouse DB, configured Clickhouse to sync reports from other 19 Postgres DB replicas, and then wrote high performant queries to retrieve analytics.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">
+                      
+                      <div class="pull-right">
+                        London, England, United Kingdom 
+                      </div>
+                    </div>
+                    <div class="address">
+                      <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;company&#x2F;bp&#x2F;" target= "_blank"><i class="fas fa-globe ico"></i> https:&#x2F;&#x2F;www.linkedin.com&#x2F;company&#x2F;bp&#x2F;</a>
+                    </div>
+                    <div class="year">July 2022 – March 2023</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Senior Fullstack Engineer</div>
+                    <div class="description">
+                      By simplifying end-to-end fleet management and offering guidance on how to decarbonize their fleet, a one-stop digital platform operating on BP's Superfleet platform assists fleet managers who want to maximize the efficiency of their fleet. This frees up time to expand their business in a Net Zero world. ​
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">I contributed to the Notification Team (Squad) using Node.js and Postgres, ensuring that Superfleet users may improve their platform experiences by not missing any action or insight made on the platform.</li>
+                        <li class="list-group-item">I was a part of the Audit Trail Team, whose job it was to keep a log of all the platform's users' past actions. I wrote performant SQL queries to retrieve millions of audits in Postgres.</li>
+                        <li class="list-group-item">Created different components under the Atomic Design principle and Storybook while making the BP design system, reducing component dependency by 35%.</li>
+                        <li class="list-group-item">Wrote Regression and Unit tests of the components in the BP design System.</li>
+                        <li class="list-group-item">Involvement in Domains Team, managing high-level monorepo architecture with NX for efficient team development and CI/CD pipelines.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">
+                      
+                      <div class="pull-right">
+                        Istanbul, Turkey 
+                      </div>
+                    </div>
+                    <div class="address">
+                      <a href="https:&#x2F;&#x2F;dev.huntersofbook.com&#x2F;login" target= "_blank"><i class="fas fa-globe ico"></i> https:&#x2F;&#x2F;dev.huntersofbook.com&#x2F;login</a>
+                    </div>
+                    <div class="year">April 2021 – June 2022</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Software Full Stack Engineer</div>
+                    <div class="description">
+                      Improved frontend development and user engagement at HuntersOfBook through storybook UI components and WYSIWYG editor.
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Created Component presentation with storybook, which improved Developer experience by 15%.</li>
+                        <li class="list-group-item">Wrote unit test and integration test respecting TDD with Jest and testing-library</li>
+                        <li class="list-group-item">Built end-to-end APIs using Nest.js, PostgreSQL, Prisma, and Graphql.</li>
+                        <li class="list-group-item">Developed a powerful WYSIWYG editor using Vue.js, an editor that made content writing smooth and faster with a 45% increase in efficiency for users.</li>
+                        <li class="list-group-item">Wrote GitHub Action scripts for PRs, automating PR validations and automatic deployment, speeding up the normal manual process from 15mins to 55 secs.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">
+                      
+                      <div class="pull-right">
+                        Kigali City, Rwanda
+                      </div>
+                    </div>
+                    <div class="year">July 2020 – March 2021</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Frontend Engineer</div>
+                    <div class="description">
+                      Developed tools for video and textual materials for students and a real-time messaging service for communication between students and teachers, improving the platform's front-end, making the platform more competitive with Coursera and Edx.
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Developed and led software analysis and design process, resulting in the successful creation of over 20 Software Requirement Specification (SRS) documents, data dictionaries, DFD diagrams, and user use cases.</li>
+                        <li class="list-group-item">Setup Gitlab Enterprise server, Jenkins, Tomcat, PM2, Docker, and Kubernetes for Java, Node.js, and Vue.js app CI/CD.</li>
+                        <li class="list-group-item">Implemented DevOps workflows on Digital Ocean, speeding CI/CD process by 30%.</li>
+                        <li class="list-group-item">Developed Chat, Live Stream, and Students Forum modules, resulting in a 50% increase in user engagement and communication, utilizing technologies such as webRTC, socket.io, Vue.js, and Kurento.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <!-- AWARDS -->
+          <div class="box">
+            <h2><i class="fas fa-award ico"></i> Awards</h2>
+            <ul id="awards" class="clearfix">
+              <li>
+                <div class="year pull-left">September  2024</div>
+                <div class="description pull-right">
+                  <h3>Irembo</h3>
+                  <p><i class="fas fa-trophy ico"></i> AI hackathon Winner</p>
+                  <p>Our AI project, dubbed Bwenge, was ranked first among 18 projects reviewed by the judges in the 48-hour competition on September 29, 2024</p>
+                </div>
+              </li>
+              <li>
+                <div class="year pull-left">October  2021</div>
+                <div class="description pull-right">
+                  <h3>NASA - National Aeronautics and Space Administration</h3>
+                  <p><i class="fas fa-trophy ico"></i> NASA Space App Challenge Winner</p>
+                  <p>Won first place in the NASA Space Apps Challenge Hackathon - Rwanda National Level</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!-- CERTIFICATES -->
+          <div class="box">
+            <h2><i class="fas fa-certificate ico"></i> Certificates</h2>
+            <ul id="certificates" class="clearfix">
+              <li>
+               <div class="year pull-left">2024 <br> 2026</div>
+                <div class="description pull-right">
+                  <h3>New Relic</h3>
+                  <p><i class="fas fa-book-open ico"></i> Full Stack Observability Practitioner Exam</p>
+                    <div class="address">
+                      <a href="https:&#x2F;&#x2F;credentials.newrelic.com&#x2F;a10c18a6-06de-4d52-b662-55faf8f98fb2" target= "_blank"><i class="fas fa-globe ico"></i> https:&#x2F;&#x2F;credentials.newrelic.com&#x2F;a10c18a6-06de-4d52-b662-55faf8f98fb2</a>
+                    </div>
+                </div>
+              </li>
+              <li>
+               <div class="year pull-left">2024 <br> 2026</div>
+                <div class="description pull-right">
+                  <h3>New Relic</h3>
+                  <p><i class="fas fa-book-open ico"></i> New Relic Observability Practitioner Badge</p>
+                    <div class="address">
+                      <a href="https:&#x2F;&#x2F;credentials.newrelic.com&#x2F;b064b02e-9628-4992-81e1-7f6167c26626" target= "_blank"><i class="fas fa-globe ico"></i> https:&#x2F;&#x2F;credentials.newrelic.com&#x2F;b064b02e-9628-4992-81e1-7f6167c26626</a>
+                    </div>
+                </div>
+              </li>
+              <li>
+               <div class="year pull-left">2021 <br> Present</div>
+                <div class="description pull-right">
+                  <h3>freeCodeCamp</h3>
+                  <p><i class="fas fa-book-open ico"></i> Responsive Web Design</p>
+                    <div class="address">
+                      <a href="https:&#x2F;&#x2F;freecodecamp.org&#x2F;certification&#x2F;ntwari&#x2F;responsive-web-design" target= "_blank"><i class="fas fa-globe ico"></i> https:&#x2F;&#x2F;freecodecamp.org&#x2F;certification&#x2F;ntwari&#x2F;responsive-web-design</a>
+                    </div>
+                </div>
+              </li>
+              <li>
+               <div class="year pull-left">2021 <br> Present</div>
+                <div class="description pull-right">
+                  <h3>freeCodeCamp</h3>
+                  <p><i class="fas fa-book-open ico"></i> JavaScript Algorithms and Data Structures</p>
+                    <div class="address">
+                      <a href="https:&#x2F;&#x2F;freecodecamp.org&#x2F;certification&#x2F;ntwari&#x2F;javascript-algorithms-and-data-structures" target= "_blank"><i class="fas fa-globe ico"></i> https:&#x2F;&#x2F;freecodecamp.org&#x2F;certification&#x2F;ntwari&#x2F;javascript-algorithms-and-data-structures</a>
+                    </div>
+                </div>
+              </li>
+              <li>
+               <div class="year pull-left">2022 <br> Present</div>
+                <div class="description pull-right">
+                  <h3>Linkedin Learning App</h3>
+                  <p><i class="fas fa-book-open ico"></i> Scrum: The Basics</p>
+                </div>
+              </li>
+              <li>
+               <div class="year pull-left">2021 <br> Present</div>
+                <div class="description pull-right">
+                  <h3>NASA - National Aeronautics and Space Administration</h3>
+                  <p><i class="fas fa-book-open ico"></i> Galactic Problem Solver</p>
+                    <div class="address">
+                      <a href="https:&#x2F;&#x2F;drive.google.com&#x2F;file&#x2F;d&#x2F;1X2yX1vlY8wnjyHWdILnC_nSYqvQbudJ3&#x2F;view?usp&#x3D;sharing" target= "_blank"><i class="fas fa-globe ico"></i> https:&#x2F;&#x2F;drive.google.com&#x2F;file&#x2F;d&#x2F;1X2yX1vlY8wnjyHWdILnC_nSYqvQbudJ3&#x2F;view?usp&#x3D;sharing</a>
+                    </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!-- VOLUNTEER -->
+          <div class="box">
+            <h2><i class= "fas fa-users ico"></i> Volunteer</h2>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">Future Skills Bootcamp</div>
+                    <div class="address">
+                      <a href="https:&#x2F;&#x2F;www.minict.gov.rw&#x2F;news-detail&#x2F;minict-launches-the-second-edition-of-coding-bootcamp" target= "_blank"><i class="fas fa-globe ico"></i> https:&#x2F;&#x2F;www.minict.gov.rw&#x2F;news-detail&#x2F;minict-launches-the-second-edition-of-coding-bootcamp</a>
+                    </div>
+                    <div class="year">December 2019 – December 2019</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Web Development Mentor</div>
+                    <div class="description">
+                      Taught programming concepts to 350 children under 18 during a two week program.
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Covered five skills including HTML, CSS, Javascript, PHP, and SQL.</li>
+                        <li class="list-group-item">Guided and facilitated students in presenting final projects on demo day.</li>
+                        <li class="list-group-item">Facilitated students in designing web pages within 7 days, helping to foster competitive programming and creative thinking skills.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-5">
+          <!-- CONTACT -->
+          <div class="box clearfix">
+            <h2><i class="fas fa-bullseye ico"></i> Contact</h2>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fas fa-map-marker fa-fw"></span></div>
+              <div class="title pull-right">Rwanda</div>
+              <div class="title  pull-right">Kigali RW</div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fas fa-envelope fa-fw"></span></div>
+              <div class="title only pull-right"><a href="mailto:liberintwari@gmail.com" target="_blank">liberintwari@gmail.com</a></div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fas fa-globe fa-fw"></span></div>
+              <div class="title only pull-right"><a href="https:&#x2F;&#x2F;www.claranceliberi.me" target="_blank">https:&#x2F;&#x2F;www.claranceliberi.me</a></div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fab fa-github fa-fw"></span></div>
+              <div class="title pull-right">GitHub</div>
+              <div class="description pull-right"><a href="https:&#x2F;&#x2F;github.com&#x2F;claranceliberi" target="_blank">claranceliberi</a></div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fab fa-twitter fa-fw"></span></div>
+              <div class="title pull-right">Twitter</div>
+              <div class="description pull-right"><a href="https:&#x2F;&#x2F;twitter.com&#x2F;claranceliberi" target="_blank">claranceliberi</a></div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fab fa-linkedin fa-fw"></span></div>
+              <div class="title pull-right">LinkedIn</div>
+              <div class="description pull-right"><a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;claranceliberi&#x2F;" target="_blank">claranceliberi</a></div>
+            </div>
+          </div>
+          <!-- EDUCATION -->
+          <div class="box">
+            <h2><i class="fas fa-university ico"></i> Education</h2>
+            <ul id="education" class="clearfix">
+              <li>
+                <div class="year pull-left">2019 2022</div>
+                <div class="description pull-right">
+                  <h3>Rwanda Coding Academy</h3>
+                  <div class="where"></div>
+                  <p><i class= "fas fa-graduation-cap ico"></i> Associate&#39;s degree</p>
+                  <p>Software Programming &amp; Embedded System</p>
+                </div>
+              </li>
+              <li>
+                <div class="year pull-left">2023 2027 (expected)</div>
+                <div class="description pull-right">
+                  <h3>African Leadership University</h3>
+                  <div class="where"></div>
+                  <p><i class= "fas fa-graduation-cap ico"></i> Bachelor&#39;s degree</p>
+                  <p>Software Engineering</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!-- SKILLS -->
+          <div class="box">
+            <h2><i class="fas fa-tasks ico"></i> Skills</h2>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Proficient Languages&#x2F;Framework
+                  <span class="skill-level">PROFICIENT</span>
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">Typescript</span>
+                <span class= "skill badge">Node.js</span>
+                <span class= "skill badge">Vue.js</span>
+                <span class= "skill badge">React.js</span>
+                <span class= "skill badge">Java</span>
+                <span class= "skill badge">Spring-boot</span>
+                <span class= "skill badge">Golang Gin</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Database
+                  <span class="skill-level">PROFICIENT</span>
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">Clickhouse</span>
+                <span class= "skill badge">MongoDB</span>
+                <span class= "skill badge">MySQL</span>
+                <span class= "skill badge">PostgreSQL</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Other languages
+                  <span class="skill-level">Working</span>
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">Golang</span>
+                <span class= "skill badge">Gin</span>
+                <span class= "skill badge">Java</span>
+                <span class= "skill badge">Nest.js</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  DevOps
+                  <span class="skill-level">PROFICIENT</span>
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">Docker</span>
+                <span class= "skill badge">Ansible</span>
+                <span class= "skill badge">Jenkins</span>
+                <span class= "skill badge">Gitlab</span>
+                <span class= "skill badge">GCP</span>
+                <span class= "skill badge">AWS</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Methodologies
+                  <span class="skill-level">PROFICIENT</span>
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">Agile</span>
+                <span class= "skill badge">Scrum</span>
+                <span class= "skill badge">Kanban</span>
+                <span class= "skill badge">Atomic Design</span>
+                <span class= "skill badge">BEM</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
