@@ -2,8 +2,9 @@
     "basics": {
       "name": "Clarance Liberiste Ntwari",
       "label": "Software Engineer",
-      "email": "liberintwari@gmail.com",
+      "email": "contact@claranceliberi.me",
       "url": "https://www.claranceliberi.me",
+      "picture": "https://res.cloudinary.com/dawr8i20o/image/upload/v1690972585/unshared/passports/IMG_8252_3-min_l3hutm.jpg",
       "summary": "I'm a curious and driven software engineer with over 4 years of experience crafting scalable solutions across diverse environments - from startups to large enterprises. I've led teams of up to 12 developers, implementing modern web technologies and DevOps practices that significantly improve development workflows and user experiences. My expertise spans the full stack, with a particular focus on TypeScript, Node.js, and cloud technologies, having delivered impactful solutions that reduced processing times from days to hours at RSSB, implemented high-performance microservices at PivotAccess, and contributed to BP's global fleet management platform. What drives me is the intersection of technical excellence and real-world impact, consistently approaching each challenge with relentless curiosity and a commitment to continuous growth while delivering tangible value to users through performant, scalable software solutions.",
       "location": {
         "city":"Kigali",
@@ -31,7 +32,7 @@
     },
     "work": [
       {
-        "company": "RSSB, Rwanda ",
+        "name": "Rwanda Social Security Board (RSSB) ",
         "position": "Software Engineer",
         "startDate": "2024-01-30",
         "endDate": "2024-11-20",
@@ -44,7 +45,7 @@
         "location": "Kigali City, Rwanda "
       },
       {
-        "company": "Pivot Access, Rwanda ",
+        "name": "Pivot Access ",
         "position": "Full Stack Engineer",
         "startDate": "2023-05-01",
         "endDate": "2024-01-01",
@@ -62,7 +63,7 @@
         "location": "Kigali City, Rwanda "
       },
       {
-        "company": "British Petroleum (BP), UK ",
+        "name": "British Petroleum (BP) ",
         "position": "Senior Fullstack Engineer",
         "startDate": "2022-07-01",
         "endDate": "2023-03-01",
@@ -74,11 +75,11 @@
           "Involvement in Domains Team, managing high-level monorepo architecture with NX for efficient team development and CI/CD pipelines."
         ],
         "summary": "By simplifying end-to-end fleet management and offering guidance on how to decarbonize their fleet, a one-stop digital platform operating on BP's Superfleet platform assists fleet managers who want to maximize the efficiency of their fleet. This frees up time to expand their business in a Net Zero world. ​",
-        "url": "https://www.linkedin.com/company/bp/",
+        "url": "https://www.bp.com/",
         "location": "London, England, United Kingdom "
       },
       {
-        "company": "HuntersOfBook, Turkey ",
+        "name": "HuntersOfBook",
         "position": "Software Full Stack Engineer",
         "startDate": "2021-04-30",
         "endDate": "2022-06-30",
@@ -90,13 +91,11 @@
           "Wrote GitHub Action scripts for PRs, automating PR validations and automatic deployment, speeding up the normal manual process from 15mins to 55 secs."
         ],
         "summary": "Improved frontend development and user engagement at HuntersOfBook through storybook UI components and WYSIWYG editor.",
-        "url": "https://dev.huntersofbook.com/login",
         "location": "Istanbul, Turkey "
       },
       {
-        "company": "Kurious ltd, Rwanda",
+        "name": "Kurious ltd",
         "position": "Frontend Engineer",
-
         "startDate": "2020-07-31",
         "endDate": "2021-03-31",
         "highlights": [
@@ -123,7 +122,7 @@
 
 
         ],
-        "summary": "Taught programming concepts to 350 children under 18 during a two week program.",
+        "summary": "Taught programming concepts to 60 high school students during a two-week intensive bootcamp program.",
         "url": "https://www.minict.gov.rw/news-detail/minict-launches-the-second-edition-of-coding-bootcamp",
         "location": "Kigali, Kigali City, Rwanda"
       }
@@ -164,29 +163,23 @@
         "name": "Full Stack Observability Practitioner Exam",
         "issuer": "New Relic",
         "startDate": "2024-09",
-        "endDate": "2026-09",
-        "url": "https://credentials.newrelic.com/a10c18a6-06de-4d52-b662-55faf8f98fb2",
-        "credentialId": "116302240"
+        "endDate": "2026-09"
       },
       {
         "name": "New Relic Observability Practitioner Badge",
         "issuer": "New Relic",
         "startDate": "2024-09",
-        "endDate": "2026-09",
-        "url": "https://credentials.newrelic.com/b064b02e-9628-4992-81e1-7f6167c26626",
-        "credentialId": "116299482"
+        "endDate": "2026-09"
       },
       {
         "name": "Responsive Web Design",
         "issuer": "freeCodeCamp",
-        "startDate": "2021-07-31",
-        "url": "https://freecodecamp.org/certification/ntwari/responsive-web-design"
+        "startDate": "2021-07-31"
       },
       {
         "name": "JavaScript Algorithms and Data Structures",
         "issuer": "freeCodeCamp",
-        "startDate": "2021-07-31",
-        "url": "https://freecodecamp.org/certification/ntwari/javascript-algorithms-and-data-structures"
+        "startDate": "2021-07-31"
       },
       {
         "name": "Scrum: The Basics",
@@ -196,48 +189,38 @@
       {
         "name": "Galactic Problem Solver",
         "issuer": "NASA - National Aeronautics and Space Administration",
-        "startDate": "2021-10-31",
-        "url": "https://drive.google.com/file/d/1X2yX1vlY8wnjyHWdILnC_nSYqvQbudJ3/view?usp=sharing"
+        "startDate": "2021-10-31"
       }
     ],
     "publications": [],
     "skills": [
       {
-        "name": "Proficient Languages/Framework",
-        "level": "PROFICIENT",
+        "name": "Languages & Frameworks",
         "keywords": [
-          "Typescript","Node.js", "Vue.js", "React.js", "Java", "Spring-boot", "Golang Gin"
+          "TypeScript", "Node.js", "Vue.js", "React.js", "Spring Boot", "Nest.js", "Golang"
         ]
       },
       {
-        "name":"Database",
-        "level": "PROFICIENT",
+        "name":"Databases",
         "keywords": [
-          "Clickhouse","MongoDB", "MySQL", "PostgreSQL"
+          "Clickhouse", "MongoDB", "PostgreSQL"        ]
+      },
+      {
+        "name": "Cloud & DevOps",
+        "keywords": [
+          "Docker", "Kubernetes", "Gitlab CI/CD", "GCP", "AWS"
         ]
       },
       {
-        "name": "Other languages",
-        "level": "Working",
+        "name":"Methodologies & Practices",
         "keywords": [
-           "Golang", "Gin", "Java", "Nest.js"
+          "Agile/Scrum", "Atomic Design", "TDD", "Microservices"
         ]
-      },
-      {
-        "name": "DevOps",
-        "level": "PROFICIENT",
-        "keywords":["Docker","Ansible","Jenkins","Gitlab", "GCP", "AWS"]
-      },
-      {
-        "name":"Methodologies",
-        "level": "PROFICIENT",
-        "keywords": ["Agile", "Scrum", "Kanban", "Atomic Design","BEM"]
       }
     ],
     "languages": [
       {
-        "language": "English",
-        "fluency": "Professional"
+        "language": "English"
       }
     ],
     "interests": [],

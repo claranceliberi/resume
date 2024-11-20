@@ -408,6 +408,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"argparse@npm:^2.0.1":
+  version: 2.0.1
+  resolution: "argparse@npm:2.0.1"
+  checksum: 10/18640244e641a417ec75a9bd38b0b2b6b95af5199aa241b131d4b2fb206f334d7ecc600bd194861610a5579084978bfcbb02baa399dbe442d56d0ae5e60dbaef
+  languageName: node
+  linkType: hard
+
 "arr-diff@npm:^4.0.0":
   version: 4.0.0
   resolution: "arr-diff@npm:4.0.0"
@@ -1529,6 +1536,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"entities@npm:~3.0.1":
+  version: 3.0.1
+  resolution: "entities@npm:3.0.1"
+  checksum: 10/3706e0292ea3f3679720b3d3b1ed6290b164aaeb11116691a922a3acea144503871e0de2170b47671c3b735549b8b7f4741d0d3c2987e8f985ccaa0dd3762eba
+  languageName: node
+  linkType: hard
+
 "env-paths@npm:^2.2.0":
   version: 2.2.1
   resolution: "env-paths@npm:2.2.1"
@@ -2078,7 +2092,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"handlebars@npm:>=4.0.14":
+"handlebars@npm:>=4.0.14, handlebars@npm:^4.7.7":
   version: 4.7.8
   resolution: "handlebars@npm:4.7.8"
   dependencies:
@@ -2850,13 +2864,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jsonresume-theme-kendall-saathoff@npm:^1.0.4":
-  version: 1.0.4
-  resolution: "jsonresume-theme-kendall-saathoff@npm:1.0.4"
+"jsonresume-theme-stackoverflow@npm:^2.0.2":
+  version: 2.0.2
+  resolution: "jsonresume-theme-stackoverflow@npm:2.0.2"
   dependencies:
-    lodash: "npm:^4.17.20"
-    mustache: "npm:^4.2.0"
-  checksum: 10/9b868f7463ec417e2ee9d31138cd7c6eb1c7d3e57b84490744eb4ecadfa51aa8ef7a51f85241e7cd2e3eaa27ed70e44b2d4f30d543009b84ba6093f5fbb667aa
+    handlebars: "npm:^4.7.7"
+    markdown-it: "npm:^13.0.1"
+    moment: "npm:^2.29.2"
+  checksum: 10/0071bc1cff060903cd9b90f8dc0b635aa0981d29be41141b7b351791315066aca13ab9a70bd309bb7c310c765852836dfa08b26c48a8a7b4e0e843a966eff9b9
   languageName: node
   linkType: hard
 
@@ -2934,6 +2949,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"linkify-it@npm:^4.0.1":
+  version: 4.0.1
+  resolution: "linkify-it@npm:4.0.1"
+  dependencies:
+    uc.micro: "npm:^1.0.1"
+  checksum: 10/d0a786d2e3f02f46b6f4a9b466af9eb936fb68e86b7cd305933d5457b12fdc53a4d0e0b697b02dc2e7d84a51d2425d719598bb7b47af7e01911e492e07a97957
+  languageName: node
+  linkType: hard
+
 "linkify-it@npm:~1.2.2":
   version: 1.2.4
   resolution: "linkify-it@npm:1.2.4"
@@ -2987,7 +3011,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lodash@npm:^4.17.10, lodash@npm:^4.17.14, lodash@npm:^4.17.20, lodash@npm:^4.17.4":
+"lodash@npm:^4.17.10, lodash@npm:^4.17.14, lodash@npm:^4.17.4":
   version: 4.17.21
   resolution: "lodash@npm:4.17.21"
   checksum: 10/c08619c038846ea6ac754abd6dd29d2568aa705feb69339e836dfa8d8b09abbb2f859371e86863eda41848221f9af43714491467b5b0299122431e202bb0c532
@@ -3066,6 +3090,21 @@ __metadata:
   languageName: node
   linkType: hard
 
+"markdown-it@npm:^13.0.1":
+  version: 13.0.2
+  resolution: "markdown-it@npm:13.0.2"
+  dependencies:
+    argparse: "npm:^2.0.1"
+    entities: "npm:~3.0.1"
+    linkify-it: "npm:^4.0.1"
+    mdurl: "npm:^1.0.1"
+    uc.micro: "npm:^1.0.5"
+  bin:
+    markdown-it: bin/markdown-it.js
+  checksum: 10/4f48271bbd44d16502efd4148d7c05ca1fb4b50719a07d34c91e8d16f8d065c558fed0fafe07cd13ca5958096bfe295b37cd4f042add7ec49f73c70154e75f58
+  languageName: node
+  linkType: hard
+
 "markdown-it@npm:^6.0.1":
   version: 6.1.1
   resolution: "markdown-it@npm:6.1.1"
@@ -3081,7 +3120,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mdurl@npm:~1.0.1":
+"mdurl@npm:^1.0.1, mdurl@npm:~1.0.1":
   version: 1.0.1
   resolution: "mdurl@npm:1.0.1"
   checksum: 10/ada367d01c9e81d07328101f187d5bd8641b71f33eab075df4caed935a24fa679e625f07108801d8250a5e4a99e5cd4be7679957a11424a3aa3e740d2bb2d5cb
@@ -3347,7 +3386,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"moment@npm:^2.13.0, moment@npm:^2.22.2":
+"moment@npm:^2.13.0, moment@npm:^2.22.2, moment@npm:^2.29.2":
   version: 2.30.1
   resolution: "moment@npm:2.30.1"
   checksum: 10/ae42d876d4ec831ef66110bdc302c0657c664991e45cf2afffc4b0f6cd6d251dde11375c982a5c0564ccc0fa593fc564576ddceb8c8845e87c15f58aa6baca69
@@ -3372,15 +3411,6 @@ __metadata:
   version: 2.1.2
   resolution: "ms@npm:2.1.2"
   checksum: 10/673cdb2c3133eb050c745908d8ce632ed2c02d85640e2edb3ace856a2266a813b30c613569bf3354fdf4ea7d1a1494add3bfa95e2713baa27d0c2c71fc44f58f
-  languageName: node
-  linkType: hard
-
-"mustache@npm:^4.2.0":
-  version: 4.2.0
-  resolution: "mustache@npm:4.2.0"
-  bin:
-    mustache: bin/mustache
-  checksum: 10/6e668bd5803255ab0779c3983b9412b5c4f4f90e822230e0e8f414f5449ed7a137eed29430e835aa689886f663385cfe05f808eb34b16e1f3a95525889b05cd3
   languageName: node
   linkType: hard
 
@@ -4298,7 +4328,7 @@ __metadata:
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
     jsonresume-theme-caffeine: "npm:^1.2.3"
-    jsonresume-theme-kendall-saathoff: "npm:^1.0.4"
+    jsonresume-theme-stackoverflow: "npm:^2.0.2"
     resume-cli: "npm:^3.1.2"
   languageName: unknown
   linkType: soft
@@ -5032,7 +5062,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"uc.micro@npm:^1.0.1":
+"uc.micro@npm:^1.0.1, uc.micro@npm:^1.0.5":
   version: 1.0.6
   resolution: "uc.micro@npm:1.0.6"
   checksum: 10/6898bb556319a38e9cf175e3628689347bd26fec15fc6b29fa38e0045af63075ff3fea4cf1fdba9db46c9f0cbf07f2348cd8844889dd31ebd288c29fe0d27e7a
